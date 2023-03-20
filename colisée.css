@@ -1,0 +1,103 @@
+body{
+  height: 2800px;
+  background-color: #df7f25;
+}
+h1{
+  padding: 100px 0px 100px 0px;
+  color: #000000;
+  font-size: 60px;
+  line-height: 2;
+  letter-spacing: 0.3em;
+  font-weight: 1000;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-position: center;
+  border-radius: 20px;
+  margin-top: -5px;
+}
+.contenu1{
+  height: 900px
+}
+.Bimage{
+width: 45%;
+  display: flex;
+  height: 60%;
+  float: left;
+  background-size:cover;
+  background-image: url(R\ \(3\).jpg);
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px;
+  position:relative;
+  margin-bottom: 15.8%;
+}
+.Bimage1{
+  width: 45%;
+  display: flex;
+  height: 57%;
+  float: left;
+  background-size:cover;
+  background-image: url(3646687.jpg);
+  position:relative;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 2px;
+  margin-bottom: 20px;
+  
+}
+.Btexte{
+  top: 0;
+  bottom: 0;
+height:70%;
+width: 48%;
+float: right;
+font-size: 20px;
+line-height: 1.6;
+letter-spacing: -0.025em;
+font-weight: 130;
+font-style:normal;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #ffffff;
+  background-color: #8e5521;
+  opacity: 0.8;
+  text-align: justify;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2.5px 2.5px;
+  margin-bottom: 100px;
+  padding-bottom: 700px;
+}
+.premier{
+  margin: 0px 100px
+}
+#pied {
+  margin-top: 1080px;
+ padding-bottom: 20px;
+ padding-right: 0;
+  background-color: black;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#pied p{
+  margin-top: 0px;
+  padding: 0px 50px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.059em;
+  color: whitesmoke;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#principal{
+  background-image: url(photo-1676743833356-843bf52201e3.jpg);
+ background-size: cover;
+}
+.buttons{
+  border-color: aqua;
+   background-color: rgb(240, 183, 113);
+    box-shadow: 1px#d83f3d;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+

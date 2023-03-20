@@ -1,0 +1,521 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+}
+a.p{
+  text-decoration: none;
+}
+body{
+
+  background-color: bisque;
+  
+}
+
+
+header {
+  height: 100px;
+  background-image: url(télécharger.jpg);
+ 
+}
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+.logo a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: poppins;
+  color: #fff;
+  letter-spacing: 5px;
+}
+.logo a:hover{
+  color: rgb(40, 8, 41)
+}
+nav {
+  float: right;
+  line-height: 70px;
+}
+nav a {
+  text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0 0px;
+  color: rgb(247, 247, 247);
+  font-weight: 700;
+}
+li a:hover{
+  color: rgb(40, 8, 41);
+}
+ nav li{
+  display: inline-block;
+  color: white;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+.baniere {
+  width: 100%;
+  height: 600px;
+  top: 100px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+ }
+ .baniere h1 {
+  padding-top: 8%;
+  font-size: 80px;
+  font-family: poppins;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+ }
+ .baniere h2 {
+     color: rgb(255, 255, 255);
+     text-align: center;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 50px;
+  
+ }
+h3{
+  color: #fff;
+  text-align: center;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+ }
+ h4{
+  color: pink;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 35px;
+ }
+ .text-box h1{
+  position: relative;
+  left: 6%;
+  top: 20%;
+  bottom: 30px;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url(back.png);
+  -webkit-background-clip: text;
+  animation:back 20s linear  infinite;
+  line-height: 70px;
+ }
+.eiffel{
+ margin-left: 50%;
+
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.card:hover{
+  transform: translateX(50%);
+}
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card:hover .imgbox{
+  transform: rotateY(-180deg);
+}
+.card .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .details .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .details .content h2{
+  text-align:left;
+  font-weight: 700;
+  line-height: 1em;
+}
+.card .details .content p{
+  color: black;
+  font-size: small;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.card:hover{
+  transform: translateX(50%);
+}
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card:hover .imgbox{
+  transform: rotateY(-180deg);
+}
+.card .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card .details{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .details .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .details .content h2{
+  text-align:left;
+  font-weight: 700;
+  line-height: 1em;
+}
+.card .details .content p{
+  color: black;
+  font-size: small;
+}
+
+.card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.card:hover{
+  transform: translateX(50%);
+}
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card:hover .imgbox{
+  transform: rotateY(-180deg);
+}
+.card .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .details .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .details .content h2{
+  text-align:left;
+  font-weight: 700;
+  line-height: 1em;
+}
+.card .details .content p{
+  color: black;
+  font-size: small;
+}
+
+.Colisée{
+  margin-left: 50%;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.card:hover{
+  transform: translateX(50%);
+}
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card:hover .imgbox{
+  transform: rotateY(-180deg);
+}
+.card .imgbox img{ 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .details .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .details .content h2{
+  text-align:left;
+  font-weight: 700;
+  line-height: 1em;
+}
+.card .details .content p{
+  color: black;
+  font-size: small;
+}
+.Christ{
+  margin-left: 50%;
+}
+.card{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+  top: 100px;
+}
+.card:hover{
+  transform: translateX(50%);
+}
+.card .imgbox{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform-origin: left;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card:hover .imgbox{
+  transform: rotateY(-180deg);
+}
+.card .imgbox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: 1s;
+}
+.card .details{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .details .content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .details .content h2{
+  text-align:left;
+  font-weight: 700;
+  line-height: 1em;
+}
+.card .details .content p{
+  color: black;
+  font-size: small;
+}
+.style{
+  width: 1170px;
+  margin: 0 auto;
+ }
+ 
+ @keyframes back{
+
+  100%{
+    background-position: 2000px 0;
+  }
+ }
+ /*diapo*/
+.diapo{
+/*margin: 0 auto;*/ 
+flex: 1 0 auto;
+height: 100%;
+/*border: 3px solid rgb (255, 255, 255);*/ 
+background-size: cover;
+
+-webkit-animation-name: diapo;
+-webkit-animation-duration: 10s;
+-webkit-animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: normal;
+-moz-animation-name: diapo;
+-moz-animation-duration: 10s;
+-moz-animation-timing-function: linear;
+-moz-animation-iteration-count: infinite;
+-moz-animation-direction: normal;
+animation-name: diapo; animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-direction: normal;
+}
+@-webkit-keyframes diapo{
+0% {background-image: url(eiffel-tower-paris-beautiful-view-1s-1280x720.jpg) ;background-size: cover}
+33% {background-image: url(photo-1587135941948-670b381f08ce.JPG) ;background-size: cover}
+66% {background-image: url(photo-1593854586136-2edae149504c.JPG) ;background-size: cover}
+100%{background-image: url(photo-1605130284535-11dd9eedc58a.JPG) ;background-size: cover}
+}
+@-moz-keyframes diapo{
+0% {background-image: url(eiffel-tower-paris-beautiful-view-1s-1280x720.jpg) ;background-size: cover;}
+33% {background-image: url(photo-1587135941948-670b381f08ce.JPG);background-size: cover}
+66% {background-image: url(photo-1593854586136-2edae149504c.JPG);background-size: cover}
+100%{background-image: url(photo-1605130284535-11dd9eedc58a.JPG) ;background-size: cover}
+}
+#pied {
+  margin-top: 16%;
+ padding-bottom: 20px;
+ padding-right: 0;
+  background-color: black;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#pied p{
+  margin-top: 0px;
+  padding: 0px 50px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.059em;
+  color: whitesmoke;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.buttons{
+  border-color: aqua;
+   background-color: rgb(240, 183, 113);
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 150px;
+    letter-spacing: 1px;
+}
+
+.contenu {
+  width: 100%;
+background-image: url(photo-1678497178543-dde658d2e732.jpg);
+  height: 2500px;
+  background-size: cover;
+ }
+ .contenu h2 {
+  font-family: poppins;
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 40px;
+  margin: 0;
+  color: black;
+ }
+ .contenu p {
+  padding: 2% 0px;
+  font-family: poppins;
+  line-height: 30px;
+  font-size: 30px;
+ }
+ 

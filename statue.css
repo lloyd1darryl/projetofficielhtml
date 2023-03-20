@@ -1,0 +1,128 @@
+body{
+  background-color: #cc35bd;
+}
+h1{
+  padding: 100px 0px 100px 0px;
+  color: rgb(0, 0, 0);
+  line-height: 2;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+ background-position: center;
+ border-radius: 20px;
+ background-image: url(R\ \(2\).jpg);
+ margin-top: -5px;
+
+}
+.contenu1{
+  height: 900px
+}
+.Bimage{
+width: 40%;
+float: right;
+  display: flex;
+  height: 60%;
+  background-size:cover;
+  background-image: url(FOT-0034865457_1.jpg);
+  display: flex;
+  position:relative;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px 5px;
+  margin-bottom: 50px;
+}
+.Bimage1{
+  width: 40%;
+  display: flex;
+  height: 60%;
+  background-size:cover;
+  background-image: url(18286.jpg);
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2px 2px;
+float:left;
+margin-bottom: 30px;
+}
+.Btexte{
+  top: 0;
+  bottom: 0;
+height:36%;
+width: 43%;
+float: left;
+font-size: 20px;
+line-height: 1.6;
+letter-spacing: -0.025em;
+font-weight: 130;
+font-style:normal;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #ffffff;
+  background-color: #cc35bd;
+  opacity: 0.8;
+  padding-bottom: 220px;
+  text-align: justify;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2.5px 2.5px;
+  margin-bottom: 150px;
+  padding-top: 40px;
+}
+.Btexte1{
+  top: 0;
+  bottom: 0;
+height:55%;
+width: 47%;
+float: right;
+font-size: 20px;
+line-height: 1.6;
+letter-spacing: -0.025em;
+font-weight: 130;
+font-style:normal;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color: #ffffff;
+  background-color: #cc35bd;
+  opacity: 0.9;
+  padding-bottom: 220px;
+  text-align: justify;
+  border-radius: 20px;
+  box-shadow: 0px 0px 2.5px 2.5px;
+  
+  margin-top: 10%;
+}
+.premier{
+  margin: 0px 100px
+}
+#pied {
+  margin-top: 1087px;
+ padding-bottom: 20px;
+ padding-right: 0;
+  background-color: black;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ margin-top: 80%;
+}
+#pied p{
+  margin-top: 0px;
+  padding: 0px 50px;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: 300;
+  letter-spacing: 0.059em;
+  color: whitesmoke;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#principal{
+  background-image: url(photo-1471306224500-6d0d218be372.jpg);
+  background-size: cover;
+}
+.buttons{
+  border-color: rgb(255, 0, 0);
+   background-color: rgb(113, 240, 240);
+    box-shadow: 1px#d83f3d;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 15px;
+}
+
+
